@@ -96,8 +96,6 @@
     grid-row: 2;
 }
 
-/*REUSABLE*/
-
 .transform-1 {
     transform: scale(2);
     animation-delay: 250ms;
@@ -137,11 +135,18 @@
 }
 
 
-
 /*CSS QUERIES*/
 
 @media screen and (max-width: 1300px) {
-    
+    .box-1 {
+        grid-column: ;
+        grid-row: ;
+        border: ;
+        background-color: ;
+        transform: ;
+        animation-delay: ;
+        animation-duration: ;
+    }
 }
 
 @media screen and (max-width: 1200px) {
