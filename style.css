@@ -1,11 +1,17 @@
-/*HEADER*/
+/*GENERAL*/
 
+.general {
+    margin: auto;
+    width: 1440px;
+}
 
 /*MAIN BOX*/
 
 .main-box {
     width: 50%;
     height: 40%;
+    margin-top: 50px;
+    padding: 12px;
     display: grid;
     grid-template-columns: repeat(20, 1fr);
     grid-template-rows: repeat(10, 1fr);
@@ -15,43 +21,53 @@
 /*BOXES*/
 
 .box-1 {
-
+    grid-column: 3 / 5;
+    grid-row: 1;
 }
 
 .box-2 {
-
+    grid-column: 1 / 3;
+    grid-row: 8;
 }
 
 .box-3 {
-
+    grid-column: 5 / 10;
+    grid-row: 3;
 }
 
 .box-4 {
-
+    grid-column: 15 / 20;
+    grid-row: 8;
 }
 
 .box-5 {
-
+    grid-column: 10 / 16;
+    grid-row: 6;
 }
 
 .box-6 {
-
+    grid-column: 11 / 14;
+    grid-row: 5;
 }
 
 .box-7 {
-
+    grid-column: 19 / 20;
+    grid-row: 10;
 }
 
 .box-8 {
-
+    grid-column: 12 / 14;
+    grid-row: 3;
 }
 
 .box-9 {
-
+    grid-column: 17 / 20;
+    grid-row: 6;
 }
 
 .box-10 {
-
+    grid-column: 1 / 3;
+    grid-row: 2;
 }
 
 /*REUSABLE*/
@@ -80,7 +96,7 @@
 
 }
 
-,.color-2 {
+.color-2 {
     border: 3px ridge black;
     background-color: rgb(218, 161, 57);
 }
@@ -91,6 +107,6 @@
 }
 
 .color-4 {
-    border: 6px thick double red;
+    border: 6px double red;
     background-color: yellow;
 }
